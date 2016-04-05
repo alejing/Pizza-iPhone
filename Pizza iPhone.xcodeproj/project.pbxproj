@@ -12,6 +12,8 @@
 		1A5709071CB336CB0009569C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5709051CB336CB0009569C /* Main.storyboard */; };
 		1A5709091CB336CB0009569C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5709081CB336CB0009569C /* Assets.xcassets */; };
 		1A57090C1CB336CB0009569C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A57090A1CB336CB0009569C /* LaunchScreen.storyboard */; };
+		1A5709241CB350720009569C /* TamanoMasaQuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5709231CB350720009569C /* TamanoMasaQuesoViewController.swift */; };
+		1A5709261CB350960009569C /* AdicionalesConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5709251CB350960009569C /* AdicionalesConfirmarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1A5709081CB336CB0009569C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A57090B1CB336CB0009569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A57090D1CB336CB0009569C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5709231CB350720009569C /* TamanoMasaQuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoMasaQuesoViewController.swift; sourceTree = "<group>"; };
+		1A5709251CB350960009569C /* AdicionalesConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionalesConfirmarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1A5709081CB336CB0009569C /* Assets.xcassets */,
 				1A57090A1CB336CB0009569C /* LaunchScreen.storyboard */,
 				1A57090D1CB336CB0009569C /* Info.plist */,
+				1A5709231CB350720009569C /* TamanoMasaQuesoViewController.swift */,
+				1A5709251CB350960009569C /* AdicionalesConfirmarViewController.swift */,
 			);
 			path = "Pizza iPhone";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5709241CB350720009569C /* TamanoMasaQuesoViewController.swift in Sources */,
 				1A5709041CB336CB0009569C /* ViewController.swift in Sources */,
 				1A5709021CB336CB0009569C /* AppDelegate.swift in Sources */,
+				1A5709261CB350960009569C /* AdicionalesConfirmarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
